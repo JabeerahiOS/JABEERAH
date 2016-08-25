@@ -63,7 +63,7 @@ class loginViewController: UIViewController {
                 }else {
                     if error.code == 17009 {
                         
-                        let alert = UIAlertController (title: "invalid password ", message: " كلمة المرور غير صحيحة", preferredStyle: .Alert)
+                        let alert = UIAlertController (title: "invalid password or user is not registered ", message: " المستخدم غير مسجل أو كلمة المرور غير صحيحة", preferredStyle: .Alert)
                         alert.addAction(UIAlertAction(title: "OK", style: .Default, handler: {(action: UIAlertAction)in
                             
                             self.UserPassword.becomeFirstResponder()

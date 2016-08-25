@@ -252,6 +252,11 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="xKM-tQ-W5G"/>
+                                    </mask>
+                                </variation>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mo8-iB-4dR">
                                 <rect key="frame" x="124" y="307" width="352" height="34"/>
@@ -273,6 +278,7 @@
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="f5N-Su-IG9"/>
+                                        <exclude reference="ggq-MP-kvk"/>
                                         <exclude reference="oZC-TN-Iel"/>
                                     </mask>
                                 </variation>
@@ -290,6 +296,11 @@
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
                                 <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="i2x-4H-RLY"/>
+                                    </mask>
+                                </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -313,7 +324,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mCG-4i-xgQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-15" y="1166"/>
+            <point key="canvasLocation" x="-426" y="1218"/>
         </scene>
         <!--التسجيل-->
         <scene sceneID="DQ0-mI-6eW">

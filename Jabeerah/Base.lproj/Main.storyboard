@@ -190,6 +190,9 @@
                                         <exclude reference="9lM-gQ-NvX"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <segue destination="Hz4-A5-gBc" kind="show" id="11h-9s-VEI"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -228,6 +231,89 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-432" y="260"/>
+        </scene>
+        <!--استعادة كلمة المرور-->
+        <scene sceneID="iKJ-fF-RwX">
+            <objects>
+                <viewController title="استعادة كلمة المرور" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Hz4-A5-gBc" customClass="ResetPassword" customModule="Jabeerah" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kPM-Mm-Wzb"/>
+                        <viewControllerLayoutGuide type="bottom" id="jmW-Fe-O64"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4HB-fE-sgZ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="البريد الالكتروني" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H8M-tr-oeK">
+                                <rect key="frame" x="90" y="227" width="421" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="dx2-is-wma"/>
+                                    <constraint firstAttribute="width" constant="421" id="xKM-tQ-W5G"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mo8-iB-4dR">
+                                <rect key="frame" x="124" y="307" width="352" height="34"/>
+                                <color key="backgroundColor" red="0.2901960784" green="0.70588235290000001" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="TJj-VR-OLB"/>
+                                    <constraint firstAttribute="height" constant="33" id="f5N-Su-IG9"/>
+                                    <constraint firstAttribute="width" constant="352" id="ggq-MP-kvk"/>
+                                    <constraint firstAttribute="width" constant="352" id="oZC-TN-Iel"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="ارسال">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderwidth" value="2"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="f5N-Su-IG9"/>
+                                        <exclude reference="oZC-TN-Iel"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="SignIn:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="jJl-PV-RSV"/>
+                                    <action selector="Submit:" destination="Hz4-A5-gBc" eventType="touchUpInside" id="6Bd-DB-tZa"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="سيتم ارسال كلمة مرور جديدة إلي بريدك الالكتروني " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hMz-v7-aYk">
+                                <rect key="frame" x="169" y="270" width="265" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="gj3-tI-5Cl"/>
+                                    <constraint firstAttribute="width" constant="265" id="i2x-4H-RLY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="H8M-tr-oeK" firstAttribute="leading" secondItem="4HB-fE-sgZ" secondAttribute="leadingMargin" constant="15" id="EHv-qY-Ihd"/>
+                            <constraint firstItem="Mo8-iB-4dR" firstAttribute="top" secondItem="kPM-Mm-Wzb" secondAttribute="bottom" constant="241" id="GBm-fh-b9u"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hMz-v7-aYk" secondAttribute="trailing" constant="55" id="NUo-8m-dcs"/>
+                            <constraint firstItem="Mo8-iB-4dR" firstAttribute="leading" secondItem="4HB-fE-sgZ" secondAttribute="leadingMargin" constant="55" id="The-79-Vj5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="H8M-tr-oeK" secondAttribute="trailing" constant="15" id="UZh-PU-Rvz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Mo8-iB-4dR" secondAttribute="trailing" constant="55" id="Vq8-wk-58s"/>
+                            <constraint firstItem="hMz-v7-aYk" firstAttribute="top" secondItem="H8M-tr-oeK" secondAttribute="bottom" constant="15" id="afw-3V-oNP"/>
+                            <constraint firstItem="Mo8-iB-4dR" firstAttribute="top" secondItem="hMz-v7-aYk" secondAttribute="bottom" constant="16" id="lUY-tT-cmx"/>
+                            <constraint firstItem="hMz-v7-aYk" firstAttribute="centerX" secondItem="4HB-fE-sgZ" secondAttribute="centerX" id="nQb-3N-lAb"/>
+                            <constraint firstItem="hMz-v7-aYk" firstAttribute="leading" secondItem="4HB-fE-sgZ" secondAttribute="leadingMargin" constant="55" id="o0v-jM-Yl0"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="استعادة كلمة المرور" id="zIx-UM-TLm"/>
+                    <connections>
+                        <outlet property="UserEmail" destination="H8M-tr-oeK" id="266-Nd-TiV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mCG-4i-xgQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-15" y="1166"/>
         </scene>
         <!--التسجيل-->
         <scene sceneID="DQ0-mI-6eW">

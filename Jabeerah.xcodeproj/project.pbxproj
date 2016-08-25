@@ -25,6 +25,7 @@
 		42E57E701D63C55B00864394 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E57E6F1D63C55B00864394 /* RegistrationViewController.swift */; };
 		61428D551D69D5AF000E81CE /* PopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61428D541D69D5AF000E81CE /* PopOverViewController.swift */; };
 		7E41C502FD4920249A5C529F /* Pods_Jabeerah.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8B1BB1855D818D70AABBB9 /* Pods_Jabeerah.framework */; };
+		9747A6DA1D6ED853007BA190 /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747A6D91D6ED853007BA190 /* ResetPassword.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		42E57E6F1D63C55B00864394 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		4C8B1BB1855D818D70AABBB9 /* Pods_Jabeerah.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jabeerah.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61428D541D69D5AF000E81CE /* PopOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopOverViewController.swift; sourceTree = "<group>"; };
+		9747A6D91D6ED853007BA190 /* ResetPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPassword.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 		42B4C03E1D6A530700D9F508 /* Acount */ = {
 			isa = PBXGroup;
 			children = (
+				9747A6D91D6ED853007BA190 /* ResetPassword.swift */,
 				428512EF1D5F2638005536B6 /* loginViewController.swift */,
 				42E57E6F1D63C55B00864394 /* RegistrationViewController.swift */,
 				4286D8381D63E2DB00D381AA /* YourAccountViewController.swift */,
@@ -282,7 +285,7 @@
 				TargetAttributes = {
 					428512E71D5F2638005536B6 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = LEN2GZ9E3T;
+						DevelopmentTeam = 5UXWW9C8RC;
 					};
 					428512FD1D5F2638005536B6 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -403,6 +406,7 @@
 				428512EC1D5F2638005536B6 /* AppDelegate.swift in Sources */,
 				4286D8391D63E2DB00D381AA /* YourAccountViewController.swift in Sources */,
 				42E57E701D63C55B00864394 /* RegistrationViewController.swift in Sources */,
+				9747A6DA1D6ED853007BA190 /* ResetPassword.swift in Sources */,
 				61428D551D69D5AF000E81CE /* PopOverViewController.swift in Sources */,
 				42B4C0421D6A600D00D9F508 /* HomeViewController.swift in Sources */,
 				428512EE1D5F2638005536B6 /* FirstViewController.swift in Sources */,

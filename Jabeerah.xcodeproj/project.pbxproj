@@ -23,6 +23,9 @@
 		42D04E771D5F594F003AFAA0 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 42D04E761D5F594F003AFAA0 /* home.png */; };
 		42D04E791D5F595A003AFAA0 /* rigester.png in Resources */ = {isa = PBXBuildFile; fileRef = 42D04E781D5F595A003AFAA0 /* rigester.png */; };
 		42E57E701D63C55B00864394 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E57E6F1D63C55B00864394 /* RegistrationViewController.swift */; };
+		548920B11D6F51380046F87E /* Editaccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548920B01D6F51380046F87E /* Editaccount.swift */; };
+		548920B31D7053460046F87E /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548920B21D7053460046F87E /* UIViewController+Extension.swift */; };
+		548920B51D72225B0046F87E /* Viewaccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548920B41D72225B0046F87E /* Viewaccount.swift */; };
 		61428D551D69D5AF000E81CE /* PopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61428D541D69D5AF000E81CE /* PopOverViewController.swift */; };
 		7E41C502FD4920249A5C529F /* Pods_Jabeerah.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8B1BB1855D818D70AABBB9 /* Pods_Jabeerah.framework */; };
 		9747A6DA1D6ED853007BA190 /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747A6D91D6ED853007BA190 /* ResetPassword.swift */; };
@@ -71,6 +74,9 @@
 		42D04E781D5F595A003AFAA0 /* rigester.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rigester.png; sourceTree = "<group>"; };
 		42E57E6F1D63C55B00864394 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		4C8B1BB1855D818D70AABBB9 /* Pods_Jabeerah.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jabeerah.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		548920B01D6F51380046F87E /* Editaccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Editaccount.swift; sourceTree = "<group>"; };
+		548920B21D7053460046F87E /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		548920B41D72225B0046F87E /* Viewaccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Viewaccount.swift; sourceTree = "<group>"; };
 		61428D541D69D5AF000E81CE /* PopOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopOverViewController.swift; sourceTree = "<group>"; };
 		9747A6D91D6ED853007BA190 /* ResetPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPassword.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -182,6 +188,9 @@
 				428512EF1D5F2638005536B6 /* loginViewController.swift */,
 				42E57E6F1D63C55B00864394 /* RegistrationViewController.swift */,
 				4286D8381D63E2DB00D381AA /* YourAccountViewController.swift */,
+				548920B41D72225B0046F87E /* Viewaccount.swift */,
+				548920B01D6F51380046F87E /* Editaccount.swift */,
+				548920B21D7053460046F87E /* UIViewController+Extension.swift */,
 			);
 			name = Acount;
 			sourceTree = "<group>";
@@ -406,9 +415,12 @@
 				428512EC1D5F2638005536B6 /* AppDelegate.swift in Sources */,
 				4286D8391D63E2DB00D381AA /* YourAccountViewController.swift in Sources */,
 				42E57E701D63C55B00864394 /* RegistrationViewController.swift in Sources */,
+				548920B51D72225B0046F87E /* Viewaccount.swift in Sources */,
+				548920B11D6F51380046F87E /* Editaccount.swift in Sources */,
 				9747A6DA1D6ED853007BA190 /* ResetPassword.swift in Sources */,
 				61428D551D69D5AF000E81CE /* PopOverViewController.swift in Sources */,
 				42B4C0421D6A600D00D9F508 /* HomeViewController.swift in Sources */,
+				548920B31D7053460046F87E /* UIViewController+Extension.swift in Sources */,
 				428512EE1D5F2638005536B6 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

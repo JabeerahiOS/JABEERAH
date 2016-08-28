@@ -18,6 +18,7 @@ struct post {
 class Viewaccount: UIViewController {
     
     
+
     @IBOutlet weak var nameTF: UILabel!
     @IBOutlet weak var emailTF: UILabel!
     @IBOutlet weak var phoneTF: UILabel!
@@ -47,6 +48,20 @@ class Viewaccount: UIViewController {
         } )
     }
     
+    @IBAction func logoutAction(sender: AnyObject) {
+        
+        if FIRAuth.auth()?.currentUser != nil {
+            do {
+        
+        try! FIRAuth.auth()!.signOut()
+            }
+            catch let error as NSError {
+                print(error.localizedDescription)
+            }
+        
+        }
+        
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

@@ -16,19 +16,18 @@
 		428513031D5F2638005536B6 /* JabeerahTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428513021D5F2638005536B6 /* JabeerahTests.swift */; };
 		4285130E1D5F2638005536B6 /* JabeerahUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4285130D1D5F2638005536B6 /* JabeerahUITests.swift */; };
 		4285131C1D5F27F7005536B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4285131B1D5F27F7005536B6 /* GoogleService-Info.plist */; };
-		4286D8391D63E2DB00D381AA /* YourAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4286D8381D63E2DB00D381AA /* YourAccountViewController.swift */; };
 		42B4C0421D6A600D00D9F508 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B4C0411D6A600D00D9F508 /* HomeViewController.swift */; };
 		42D04E6C1D5F5482003AFAA0 /* جبيرة١.png in Resources */ = {isa = PBXBuildFile; fileRef = 42D04E6B1D5F5482003AFAA0 /* جبيرة١.png */; };
 		42D04E751D5F58A5003AFAA0 /* about us.png in Resources */ = {isa = PBXBuildFile; fileRef = 42D04E741D5F58A5003AFAA0 /* about us.png */; };
 		42D04E771D5F594F003AFAA0 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 42D04E761D5F594F003AFAA0 /* home.png */; };
 		42D04E791D5F595A003AFAA0 /* rigester.png in Resources */ = {isa = PBXBuildFile; fileRef = 42D04E781D5F595A003AFAA0 /* rigester.png */; };
 		42E57E701D63C55B00864394 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E57E6F1D63C55B00864394 /* RegistrationViewController.swift */; };
-		548920B11D6F51380046F87E /* Editaccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548920B01D6F51380046F87E /* Editaccount.swift */; };
 		548920B31D7053460046F87E /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548920B21D7053460046F87E /* UIViewController+Extension.swift */; };
 		548920B51D72225B0046F87E /* Viewaccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548920B41D72225B0046F87E /* Viewaccount.swift */; };
 		61428D551D69D5AF000E81CE /* PopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61428D541D69D5AF000E81CE /* PopOverViewController.swift */; };
 		7E41C502FD4920249A5C529F /* Pods_Jabeerah.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8B1BB1855D818D70AABBB9 /* Pods_Jabeerah.framework */; };
 		9747A6DA1D6ED853007BA190 /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747A6D91D6ED853007BA190 /* ResetPassword.swift */; };
+		A828B75F1D7309B0009ABFE8 /* Editaccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = A828B75E1D7309B0009ABFE8 /* Editaccount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +65,6 @@
 		4285130D1D5F2638005536B6 /* JabeerahUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JabeerahUITests.swift; sourceTree = "<group>"; };
 		4285130F1D5F2638005536B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4285131B1D5F27F7005536B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		4286D8381D63E2DB00D381AA /* YourAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourAccountViewController.swift; sourceTree = "<group>"; };
 		42B4C0411D6A600D00D9F508 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		42D04E6B1D5F5482003AFAA0 /* جبيرة١.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "جبيرة١.png"; sourceTree = "<group>"; };
 		42D04E741D5F58A5003AFAA0 /* about us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about us.png"; sourceTree = "<group>"; };
@@ -74,11 +72,11 @@
 		42D04E781D5F595A003AFAA0 /* rigester.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rigester.png; sourceTree = "<group>"; };
 		42E57E6F1D63C55B00864394 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		4C8B1BB1855D818D70AABBB9 /* Pods_Jabeerah.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jabeerah.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		548920B01D6F51380046F87E /* Editaccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Editaccount.swift; sourceTree = "<group>"; };
 		548920B21D7053460046F87E /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		548920B41D72225B0046F87E /* Viewaccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Viewaccount.swift; sourceTree = "<group>"; };
 		61428D541D69D5AF000E81CE /* PopOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopOverViewController.swift; sourceTree = "<group>"; };
 		9747A6D91D6ED853007BA190 /* ResetPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPassword.swift; sourceTree = "<group>"; };
+		A828B75E1D7309B0009ABFE8 /* Editaccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Editaccount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,9 +185,8 @@
 				9747A6D91D6ED853007BA190 /* ResetPassword.swift */,
 				428512EF1D5F2638005536B6 /* loginViewController.swift */,
 				42E57E6F1D63C55B00864394 /* RegistrationViewController.swift */,
-				4286D8381D63E2DB00D381AA /* YourAccountViewController.swift */,
 				548920B41D72225B0046F87E /* Viewaccount.swift */,
-				548920B01D6F51380046F87E /* Editaccount.swift */,
+				A828B75E1D7309B0009ABFE8 /* Editaccount.swift */,
 				548920B21D7053460046F87E /* UIViewController+Extension.swift */,
 			);
 			name = Acount;
@@ -413,15 +410,14 @@
 			files = (
 				428512F01D5F2638005536B6 /* loginViewController.swift in Sources */,
 				428512EC1D5F2638005536B6 /* AppDelegate.swift in Sources */,
-				4286D8391D63E2DB00D381AA /* YourAccountViewController.swift in Sources */,
 				42E57E701D63C55B00864394 /* RegistrationViewController.swift in Sources */,
 				548920B51D72225B0046F87E /* Viewaccount.swift in Sources */,
-				548920B11D6F51380046F87E /* Editaccount.swift in Sources */,
 				9747A6DA1D6ED853007BA190 /* ResetPassword.swift in Sources */,
 				61428D551D69D5AF000E81CE /* PopOverViewController.swift in Sources */,
 				42B4C0421D6A600D00D9F508 /* HomeViewController.swift in Sources */,
 				548920B31D7053460046F87E /* UIViewController+Extension.swift in Sources */,
 				428512EE1D5F2638005536B6 /* FirstViewController.swift in Sources */,
+				A828B75F1D7309B0009ABFE8 /* Editaccount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
